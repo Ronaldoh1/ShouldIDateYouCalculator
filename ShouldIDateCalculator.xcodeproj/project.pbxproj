@@ -16,6 +16,7 @@
 		F2292E741B24F882003D82D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2292E721B24F882003D82D5 /* LaunchScreen.xib */; };
 		F2292E801B24F882003D82D5 /* ShouldIDateCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2292E7F1B24F882003D82D5 /* ShouldIDateCalculatorTests.m */; };
 		F2292E8B1B24F8A2003D82D5 /* DateCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F2292E8A1B24F8A2003D82D5 /* DateCalculator.m */; };
+		F2292EC91B254941003D82D5 /* DateCalculator+LoggingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2292EC81B254941003D82D5 /* DateCalculator+LoggingAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		F2292E7F1B24F882003D82D5 /* ShouldIDateCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouldIDateCalculatorTests.m; sourceTree = "<group>"; };
 		F2292E891B24F8A2003D82D5 /* DateCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCalculator.h; sourceTree = "<group>"; };
 		F2292E8A1B24F8A2003D82D5 /* DateCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCalculator.m; sourceTree = "<group>"; };
+		F2292EC71B254941003D82D5 /* DateCalculator+LoggingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DateCalculator+LoggingAdditions.h"; sourceTree = "<group>"; };
+		F2292EC81B254941003D82D5 /* DateCalculator+LoggingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DateCalculator+LoggingAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				F2292E6A1B24F882003D82D5 /* ViewController.h */,
 				F2292E6B1B24F882003D82D5 /* ViewController.m */,
 				F2292E891B24F8A2003D82D5 /* DateCalculator.h */,
+				F2292EC71B254941003D82D5 /* DateCalculator+LoggingAdditions.h */,
+				F2292EC81B254941003D82D5 /* DateCalculator+LoggingAdditions.m */,
 				F2292E8A1B24F8A2003D82D5 /* DateCalculator.m */,
 				F2292E6D1B24F882003D82D5 /* Main.storyboard */,
 				F2292E701B24F882003D82D5 /* Images.xcassets */,
@@ -230,6 +235,7 @@
 				F2292E691B24F882003D82D5 /* ShouldIDateCalculator.xcdatamodeld in Sources */,
 				F2292E661B24F881003D82D5 /* AppDelegate.m in Sources */,
 				F2292E6C1B24F882003D82D5 /* ViewController.m in Sources */,
+				F2292EC91B254941003D82D5 /* DateCalculator+LoggingAdditions.m in Sources */,
 				F2292E631B24F881003D82D5 /* main.m in Sources */,
 				F2292E8B1B24F8A2003D82D5 /* DateCalculator.m in Sources */,
 			);

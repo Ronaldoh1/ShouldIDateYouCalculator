@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DateCalculator.h"
+#import "DateCalculator+LoggingAdditions.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,8 @@
 
     DateCalculator * calc = [[DateCalculator alloc]initWithHisAge:46 hisName:@"Rob"];
     BOOL shouldDate = [calc shouldHeDateIfHerAgeIs:26];
+    [calc log];
+
     if (shouldDate) {
         NSLog(@"It's ok to date");
 
