@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DateCalculator.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+    DateCalculator * calc = [[DateCalculator alloc]initWithHisAge:46 hisName:@"Rob"];
+    BOOL shouldDate = [calc shouldHeDateIfHerAgeIs:26];
+    if (shouldDate) {
+        NSLog(@"It's ok to date");
+
+    }else{
+        NSLog(@"It's not ok to date");
+    }
+
+
     // Override point for customization after application launch.
     return YES;
 }

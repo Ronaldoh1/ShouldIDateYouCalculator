@@ -11,4 +11,23 @@
 @implementation DateCalculator
 
 
+-(instancetype)initWithHisAge:(float)hisAge hisName:(NSString *)hisName{
+
+    if ((self = [super init])) {
+        _HisAge = hisAge;
+        _hisName = hisName;
+    }
+    return self;
+}
+
+
+
+-(BOOL)shouldHeDateIfHerAgeIs:(float)herAge{
+    float minAgeToDate = _HisAge / 2 + 7;
+
+    return herAge > minAgeToDate;
+}
+
+
+
 @end
